@@ -22,29 +22,13 @@ export default function App() {
               <View style={ styles.profileIconCircle }></View>
             </View>
             <View>
-              <FlatList
-              data={[
-                {key: 'Devin'},
-                {key: 'Dan'},
-                {key: 'Dominic'},
-                {key: 'Jackson'},
-                {key: 'James'},
-                {key: 'Joel'},
-                {key: 'John'},
-                {key: 'Jillian'},
-                {key: 'Jimmy'},
-                {key: 'Julie'},
-              ]}
-              renderItem={({item}) => <View style={styles.item}></View>}
-              numColumns={2}
-              style={ styles.fl }
-            />
+              
             </View>
         </View>
         <View style={ main.navigationBar }>
           <View style= { styles.addButtonContainer }>
             <TouchableOpacity title='' style={ styles.addButton }>
-              <Image source={ require('./assets/plus.png') } style={ main.icon }></Image>
+              <Image source={ require('./assets/whitePlus.png') } style={ main.icon }></Image>
             </TouchableOpacity>
           </View>
         </View>
