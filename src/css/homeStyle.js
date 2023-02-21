@@ -12,15 +12,23 @@ const styles = StyleSheet.create({
   },
   topBar: {
     width: '100%',
-    height: '7%',
-    backgroundColor: color.primaryBackground,
-    borderRadius: size.medium,
+    height: 60,
     flexDirection: 'row',
-    justifyContent: 'space-between',
     alignItems: 'center',
   },
+  searchBtn: {
+    width: '100%',
+    height: '100%',
+    backgroundColor: color.primaryBackground,
+    borderRadius: size.L,
+    
+  },
+  searchBtnContainer:{
+    width: '75%',
+    height: '100%'
+  },
   optionImage: {
-    width: 26,
+    width: (10/2)+'%' ,
     aspectRatio: 1/1,
     position: 'relative',
     marginHorizontal: size.medium 
@@ -28,7 +36,7 @@ const styles = StyleSheet.create({
   profileIconCircle: {
     width: 40,
     aspectRatio: 1/1,
-    backgroundColor: '#ccc',
+    backgroundColor: color.secondaryBackground,
     borderRadius: size.L,
     marginHorizontal: size.medium
   },
